@@ -47,7 +47,7 @@ class MealyMachine:
 
 
 def test():
-    machine = MealyMachine()
+    machine = main()
     assert machine.put() == 0
     assert machine.put() == 2
     assert machine.spawn() == 1
